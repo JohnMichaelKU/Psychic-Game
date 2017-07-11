@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Hangman-Game</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+</head>
+<body>
+<div class="container-fluid">
+  <div class="jumbotron">
+  <h1 class="text-center">Let's see if you're psychic!</h1>
+  </div>
+  <div class="row">
+    <h3 class="text-center">The computer has selected a either a number or a letter and you have 5 guesses to figure it out.</h3>
+  <div class="row">
+    <div class="col-sm-6">
+      <h2 class="text-center">Letters Guessed</h2>
+      <h3 class="text-center" id="displayLettersGuessed"></h3>
+    </div>
+    <div class="col-sm-6">
+      <h2 class="text-center">Attempts Left</h2>
+      <h3 class="text-center" id="attemptsLeft"></h3>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-12">
+      <h1 id="winLoss" class="text-center"></h1>
+    </div>
+  </div>
+</div>
+
+</body>
+<script src="Assets/Javascript/game.js"></script>
+</html>
